@@ -1,5 +1,5 @@
 from bs4 import BeautifulSoup
-import urllib, sys, getopt, unicodedata
+import urllib, unicodedata
 
 for x in {"","page/2","page/3","page/4","page/5"}:
 	print "Scraping page "+x
